@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+}
+.app{
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+
+}
+.hrclass{
+  background-color: red;
+}
+.app__component{
+  display: flex;
+}
+.app__component__list{
+  flex: 0.7;
+}
+.app__component__1{
+  margin-left: 20px;
+  flex: 0.3;
+}
+.app__row{
+  display: flex;
+  align-items: center;
+}
+.app__col{
+  margin-left: 20px;
+}
